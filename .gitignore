@@ -1,0 +1,13 @@
+# Intelij IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Maven based Java Project
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.logs
