@@ -13,7 +13,7 @@ Build and deploy this API service, which is supposed to receive GET requests, co
 #### Instructions:
 * Check out the code and build the docker image.
 * Deploy the image on the instance provided.
-* The deployed service should listen on port `80` for HTTP requests matching 
+* The deployed service should listen on port `80` for HTTP requests matching:
     ```url
     /api/getServiceAvailabilityByUserId?id=<userid>
     ```
