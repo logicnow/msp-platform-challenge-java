@@ -17,7 +17,7 @@ Build and deploy this API service, which is supposed to receive GET requests, co
     ```url
     /api/getServiceAvailabilityByUserId?id=<userid>
     ```
-    * The available `userid`s are `32540, 32541, 32542`.
+    * Available `userid`s are `32540`, `32541`, `32542`.
 * It should return a list of that `userid`'s service availability factors, such as:
     ```js
     ["service1": 0.1, "service2": 0.2]
