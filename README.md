@@ -13,12 +13,12 @@ Build and deploy this API service, which is supposed to receive GET requests, co
 #### Instructions:
 * Check out the code and build the docker image.
 * Deploy the image on the instance provided.
-* The deployed service should listen on port `80` for HTTP requests matching:
+* The deployed service on the instance should listen on port 80 for incoming HTTP requests matching:
     ```url
     /api/getServiceAvailabilityByUserId?id=<userid>
     ```
     * Available `userid`s are `32540`, `32541`, `32542`.
-* It should return a list of that `userid`'s service availability factors, such as:
+* It should respond with a list of that `userid`'s service availability factors, such as:
     ```js
     ["service1": 0.1, "service2": 0.2]
     ```
